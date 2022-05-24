@@ -24,7 +24,7 @@ class Workout {
     }
 }
 
-// creating running class
+// running class
 class Running extends Workout {
     type = 'running';
     constructor(coords, distance, duration, cadence) {
@@ -42,7 +42,7 @@ class Running extends Workout {
 }
 
 
-// creating cycling class
+// cycling class
 class Cycling extends Workout {
     type = 'cycling';
     constructor(coords, distance, duration, elevationGain) {
